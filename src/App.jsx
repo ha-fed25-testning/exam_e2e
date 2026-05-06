@@ -45,13 +45,13 @@ const App = () => {
 					disabled={page === 'favs'}
 					onClick={() => setPage('favs')}
 					> Mina böcker </button>
-				
+
 				<button
-					data-testid="favorites"
+					data-testid="statistics"
 					disabled={page === 'stats'}
 					onClick={() => setPage('stats')}
 					> Statistik </button>
-				
+
 			</nav>
 		</header>
 		<main>
